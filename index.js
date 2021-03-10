@@ -18,3 +18,7 @@ app.get('/usuarios',function(req,res){
 app.post('/',function(req,res){
     res.send('Post del path /')
 });
+
+app.listen(port, () => {
+    console.log(`Server started - Port ${port}`);
+});
