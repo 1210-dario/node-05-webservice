@@ -22,7 +22,7 @@ app.post('/',function(req,res){
     res.send('Post del path /')
 });
 
-// Nos da un status de si inicio el Servidor 
+// Nos da un status de si inicio el Servidor y nos indica en que puerto va a iniciar la aplicación 
 app.listen(port, () => {
     console.log(`Server started - Port ${port}`);
 });
